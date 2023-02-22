@@ -1,0 +1,55 @@
+
+.header__text  {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+.ruler {
+    height: 60px;
+    /* background-color: aqua; */
+    margin: 0;
+    text-align: center;
+    padding-top: 15px;
+}
+.member-list {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.member-info {
+    max-width: 350px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px  gray;
+}
+
+.member__img {
+    object-fit: cover; 
+    height: 45%;
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+.light__text {
+    color: grey;
+}
+
+.btn--mem {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 120px;
+    display: inline-block;
+    margin-top: 10px;
+    border: none;
+}
+
+.btn--mem:hover {
+    cursor: pointer;
+}
+
+.member__item-space {
+    margin-left: 20px;
+}
